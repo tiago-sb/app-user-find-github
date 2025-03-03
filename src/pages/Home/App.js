@@ -30,7 +30,6 @@ const App = () => {
     <div className="App">
       <Header />
       <div className="content">
-        <img src={GitHub} className="background" alt="background App" />
         <div className="informations">
           <div>
             <input name="usuario" placeholder="Usuario" onChange={(e) => { setUser(e.target.value)}}></input>

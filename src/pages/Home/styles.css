@@ -1,22 +1,25 @@
 .content {
-    position: relative;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: flex-start;
+    overflow: hidden;
+}
+
+.informations div input {
+    margin: .5rem 0;
 }
 
 .background {
     margin-top: 1.5rem;
     height: 80vh;
-    position: absolute;
     left: 0;
 }
 
 .informations {
-    margin: .3rem;
-    width: 60%;
+    margin: .3rem auto;
     padding: 1rem;
-    border-radius: 1rem;
+    width: 100%;
 }
 
 .informations input {
@@ -65,4 +68,19 @@
 
 div.content div h3 {
     margin: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 780px){
+    .content {
+        flex-flow: column wrap;
+    }
+    
+    .informations .perfil {
+        flex-flow: column wrap;
+        text-align: center;
+    }
+
+    .informations div:last-child {
+        padding: .5rem;
+    }
 }
