@@ -10,5 +10,13 @@ Procure seu perfil do gitHub neste projeto e encontre algumas informações suas
     <img align="center" alt="react" src="https://img.shields.io/badge/React-000?style=for-the-badge&logo=react">
 </div>
 
+## Instalação
+```
+git clone https://github.com/tiago-sb/app-user-find-github.git
+```
+## Suba o Servidor
+```
+npm start
+```
 ## Demonstração
 ![Captura de tela 2025-03-03 170111](https://github.com/user-attachments/assets/8faf5b6d-8432-4cb2-a129-df0a315fbc30)
